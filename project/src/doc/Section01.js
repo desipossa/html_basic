@@ -1,4 +1,4 @@
-import '../css/section01.css';
+import '../css/section01.css'
 
 const Section01 = () => {
     return (
@@ -39,6 +39,13 @@ const Section01 = () => {
                 <h3>주요현황</h3>
                 <div className="responsive-table">
                     <table className="table">
+                        <caption>* description</caption>
+                        <colgroup>
+                            <col style={{ width: '20%' }} />
+                            <col style={{ width: '30%' }} />
+                            <col style={{ width: '20%' }} />
+                            <col style={{ width: '30%' }} />
+                        </colgroup>
                         <tbody>
                             <tr>
                                 <th>주 소</th>
