@@ -173,12 +173,12 @@ textarea {
     top: 0;
 }
 
-.row:after,
-.row:before {
+.row::before,
+.row::after {
     content: "";
     display: block;
 }
 
-.row:after {
+.row::after {
     clear: both;
 }
