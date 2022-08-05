@@ -48,6 +48,46 @@
     gap: 30px;
 }
 
+.basicSection .tit {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 0 50px 0;
+    line-height: 1.45;
+}
+
+.basicSection .container p {
+    line-height: 1.45;
+    margin: 0 0 30px 0;
+}
+
+.basicSection .inner p {
+    line-height: 1.45;
+    margin: 0 0 30px 0;
+}
+
+.basicSection h3 {
+    position: relative;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 0 0 0 10px;
+    margin: 0 0 30px 0;
+}
+
+.basicSection h3::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 3px;
+    height: 20px;
+    background: var(--mc);
+}
+
+.basicSection .pd15 {
+    padding: 0 15px;
+}
+
+
 .inner {
     width: 1200px;
     margin: 0 auto;

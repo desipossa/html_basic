@@ -33,7 +33,7 @@ const Section01 = () => {
                 </figure>
             </div>
 
-            <div className="inner">
+            <div className="inner pd15">
                 <h3>주요현황</h3>
                 <div className="responsive-table">
                     <table className="table">

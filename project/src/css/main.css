@@ -32,64 +32,42 @@
     justify-content: space-between;
 }
 
-.about .tit {
-    font-size: 25px;
-    font-weight: 500;
-    margin: 0 0 50px 0;
-    line-height: 1.45;
-}
-
-.about .container p {
-    line-height: 1.45;
-    margin: 0 0 30px 0;
-}
-
 .about figure {
     width: 30%;
     height: 400px;
     overflow: hidden;
 }
 
-.about .inner {
-    width: 1170px;
-}
-
-.about h3 {
-    position: relative;
-    font-size: 23px;
-    font-weight: 500;
-    padding: 0 0 0 10px;
-    margin: 0 0 30px 0;
-}
-
-.about h3::before {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: 0;
-    width: 3px;
-    height: 20px;
-    background: var(--mc);
-}
-
-.About02 .inner>div {
-    padding: 0 15px;
-}
 
 .About02 .top {
     float: left;
     width: 100%;
+    margin: 0 0 50px 0;
 }
 
 .About02 .left {
     float: left;
     width: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.About02 .left::after {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 150px;
+    background: var(--mc);
+
 }
 
 .About02 .right {
     float: left;
     width: 50%;
 }
+
+
 
 .Business .container img {
     width: 100%;
