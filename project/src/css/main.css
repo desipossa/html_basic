@@ -1,5 +1,4 @@
 .Nav {
-    margin: 100px 0;
     line-height: 50px;
     border-top: 1px solid var(--gc);
     border-bottom: 1px solid var(--gc);
@@ -12,6 +11,10 @@
 
 .Nav ul>li {
     padding: 0 20px;
+}
+
+.Nav ul>li a.active {
+    color: var(--mc)
 }
 
 .Nav ul>li~li {
@@ -67,6 +70,25 @@
     width: 3px;
     height: 20px;
     background: var(--mc);
+}
+
+.About02 .inner>div {
+    padding: 0 15px;
+}
+
+.About02 .top {
+    float: left;
+    width: 100%;
+}
+
+.About02 .left {
+    float: left;
+    width: 50%;
+}
+
+.About02 .right {
+    float: left;
+    width: 50%;
 }
 
 .Business .container img {
