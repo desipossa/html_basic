@@ -29,7 +29,7 @@ const Section01 = () => {
                     <p>우투드영투드우 임직원 일동</p>
                 </div>
                 <figure>
-                    <img src="./img/hd01.jpg" alt="" />
+                    <img src="../img/hd01.jpg" alt="" />
                 </figure>
             </div>
 
