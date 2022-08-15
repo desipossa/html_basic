@@ -14,7 +14,7 @@ import Section04 from './doc/Section04';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react_build_test01/'>
       <Nav />
       <Routes>
         <Route path='/' element={<Section04 />} />
