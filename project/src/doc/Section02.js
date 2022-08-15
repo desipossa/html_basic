@@ -1,7 +1,7 @@
 const Section02 = () => {
     return (
         <section className="Business basicSection">
-            <h2><span>our</span> business</h2>
+            <h2><span>OUR</span> BUINESS</h2>
             <p>새로운 미래를 열어가는 우투드영투드우</p>
             <div className="container">
                 <figure>
